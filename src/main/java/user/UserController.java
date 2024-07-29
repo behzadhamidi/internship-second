@@ -10,7 +10,7 @@ public class UserController {
 
     public UserController(Connection connection) {
         this.userService = new UserService(connection);
-    }
+    } 
 
     public void addUser(User user) throws SQLException {
         userService.addUser(user);
